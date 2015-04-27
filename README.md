@@ -17,6 +17,7 @@ If you want to check out the django-based project:
 2. python manage.py migrate
 3. python manage.py runserver
 4. Open a browser and go to:
+	
 	4.1 localhost:8000/movie/add --> to add a movie
 	
 	4.2 localhost:8000/movie/<movie_id> --> to update a movie name
