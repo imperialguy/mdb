@@ -2,6 +2,7 @@
 simple movie database
 
 Initial Steps:
+
 1. Create a virtual env on your machine with Python 3.x
 2. switch to your virtual env
 3. cd <path_to_mdb_repo>
