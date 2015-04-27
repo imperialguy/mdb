@@ -9,7 +9,7 @@ adminbp = Blueprint('adminbp', __name__, url_prefix='/admin')
 
 @adminbp.route('/movie/add', methods=['POST'])
 def add_movie():
-    """Register new online persons
+    """Add new movies
 
     """
     form = NewMovieForm(MultiDict(request.json))
