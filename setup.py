@@ -12,7 +12,13 @@ requires = [
     'SQLAlchemy==0.9.9',
     'Werkzeug==0.10.1',
     'unittest2==1.0.1',
-    'WTForms==2.0.2'
+    'WTForms==2.0.2',
+    'django-environ>=0.3.0',
+    'django-braces>=1.4.0',
+    'django-crispy-forms>=1.4.0',
+    'django-admin-bootstrapped>=1.6.9',
+    'django-debug-toolbar>=1.2.1',
+    'pudb==2014.1'
 ]
 
 tests_require = requires
@@ -24,10 +30,10 @@ docs_extras = [
 
 setup(name='mdb',
       version='0.1',
-      description='sample code for tower',
+      description='mdb',
       classifiers=[
           "Programming Language :: Python",
-          "Framework :: Django",
+          "Framework :: Django/Flask",
           "Topic :: Internet :: WWW/HTTP",
           "Topic :: Internet :: WWW/HTTP :: WSGI :: Application", ],
       author='',

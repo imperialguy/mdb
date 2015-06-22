@@ -47,6 +47,7 @@ def main():
 if __name__ == '__main__':
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     sys.path.insert(0, BASE_DIR)
+    print(BASE_DIR)
     from app001.utils import setupdb
     from app001.web.app import app
     main()
